@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1 class="text-3xl md:text-4xl font-bold text-center py-10 md:py-12 px-2">
+    Hedge-Calculator: create your perfect hedge!
+  </h1>
+  <the-calculator />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheCalculator from './components/the-calculator.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TheCalculator
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
