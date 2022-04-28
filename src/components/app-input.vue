@@ -3,7 +3,7 @@
     <input
       :type="type"
       :placeholder="placeholder"
-      class=" w-52
+      class=" w-48
         sm:w-auto
         shadow
         appearance-none
