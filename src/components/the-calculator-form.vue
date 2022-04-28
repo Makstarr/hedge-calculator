@@ -62,7 +62,7 @@ export default {
   },
   data: function () {
     return {
-      length: 20,
+      length: null,
       result: null,
       error: null,
       minLenght: 1 / this.plantsPerMeter
