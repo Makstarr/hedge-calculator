@@ -4,6 +4,8 @@
       :type="type"
       :placeholder="placeholder"
       class="
+        w-10
+        sm:w-auto
         shadow
         appearance-none
         rounded
