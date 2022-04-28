@@ -22,7 +22,7 @@
     />
     <div class="block text-gray-700 text-sm mb-2 mt-2">
       <p v-if="error" class="text-red-600">{{ error }}</p>
-      <p v-else>* The fieleld id reqired</p>
+      <p v-else>* The fieleld is reqired</p>
     </div>
   </div>
 </template>
